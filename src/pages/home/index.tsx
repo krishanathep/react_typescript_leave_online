@@ -24,7 +24,7 @@ const Home = () => {
       <div className="content-wrapper">
         <div className="content-header">
           <div className="container-fluid">
-            <div className="row mb-2">
+            {/* <div className="row mb-2">
               <div className="col-sm-6">
                 <h1 className="m-0">Home</h1>
               </div>
@@ -33,7 +33,7 @@ const Home = () => {
                   <li className="breadcrumb-item active">Home</li>
                 </ol>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="content">

@@ -40,10 +40,16 @@ const Sidebar = () => {
                   <p>Meetings</p>
                 </Link>
               </li> */}
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link to="/overtime" className="nav-link">
                   <i className="nav-icon fas fa-users"></i>
                   <p>Employees</p>
+                </Link>
+              </li> */}
+              <li className="nav-item">
+                <Link to="/leave" className="nav-link">
+                  <i className="nav-icon fas fa-calendar"></i>
+                  <p>eLeave</p>
                 </Link>
               </li>
              </ul>
