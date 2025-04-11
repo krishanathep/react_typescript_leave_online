@@ -132,7 +132,7 @@ const leaveList = () => {
                       <div className="col-md-12">
                         <div className="float-right">
                           <Link
-                            to={"/overtime/create"}
+                            to={"/leave/create"}
                             className="btn btn-success mb-2"
                           >
                             <i className="fas fa-plus"></i> Create
@@ -239,7 +239,7 @@ const leaveList = () => {
                                     <i className="fas fa-eye"></i> View
                                   </Link>{" "}
                                   <Link
-                                    to={`/overtime/update/${record.id}`}
+                                    to={`/leave/update/${record.id}`}
                                     className="btn btn-info btn-sm"
                                   >
                                     <i className="fas fa-edit"></i> Edit

@@ -80,7 +80,7 @@ const EleaveView = () => {
                     ) : (
                       <div className="row">
                         <div className="container-fluid">
-                          <table className="table table-bordered">
+                          <table className="table table-bordered mt-3">
                             <tbody>
                               <tr>
                                 <th>รหัส :</th>

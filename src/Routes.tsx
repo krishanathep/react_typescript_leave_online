@@ -25,7 +25,9 @@ import OvertimeCreate from "./pages/overtime/create";
 import OvertimeUpdate from "./pages/overtime/update";
 
 import LeaveList from './pages/eleave'
+import LeaveCreate from './pages/eleave/create'
 import LeaveView from './pages/eleave/view'
+import LeaveUpdate from './pages/eleave/update'
 
 // ถ้าไม่มีการ login จะไม่สามารถเข้าใช้งานได้และ redirect ไปหน้า login
 const RequireAuth: React.FC = () => {
@@ -57,7 +59,9 @@ const RoutesPage: React.FC = () => {
             <Route path="/overtime/create" element={<OvertimeCreate/>}/>
             <Route path="/overtime/update/:id" element={<OvertimeUpdate/>}/>
             <Route path="/leave" element={<LeaveList/>}/>
+            <Route path="/leave/create" element={<LeaveCreate/>}/>
             <Route path="/leave/view/:id" element={<LeaveView/>}/>
+            <Route path="/leave/update/:id" element={<LeaveUpdate/>}/>
           </Route>
         </Route>
       </Routes>
